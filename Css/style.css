@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+ 
+p{
+    font-weight: 300;
+    color: #1111;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+}
+.logo{
+    color :#fff;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline   #ffe14c;
+    letter-spacing: -1.5px;
+    font-family: 'Parisienne', cursive;
+    text-underline-offset: 3px ;
+}
+.logo span{
+    color: #469d89;
+    font-family: 'Parisienne', cursive;
+}
+.nav-bar{
+    display: flex;
+    position: relative;
+}
+.nav-bar li{
+    list-style: none;
+}
+.nav-bar a{
+    color :#fff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 700;
+}
+.btn-reservation{
+    padding: 10px 20px;
+    background: #469d89;
+    margin-top: -10px;
+}
+.btn-reservation:hover{
+    background:#56ab91 ;
+    transition: ease-out;
+}
+header .nav-bar li a:hover{
+    color: #469d89;
+    border-bottom: 2px solid #56ab91;
+    
+}
+.bannier{
+    position:relative;
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bck1.jpg);
+    background-size: cover;
+}
+.bannier .contenu{
+    max-width: 70%;
+    text-align: center;
+}
+.contenu h2{
+    color:  #fff;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.contenu p{
+    color: #fff;    
+    font-size: 1.2em;
+}
+.btn-res1{
+    font-size: 1em;
+    color: #fff;
+    background: #469d89;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 00.5s;
+    
+}
+.btn-res1:hover{
+    background: #56ab91;
+}
+section{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+}
+.row .col50 h2{
+    margin-bottom: 20px;
+}
+.titre-texte{
+    color: #000;
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.titre-texte span{
+    color: #56ab91;
+    letter-spacing: -4px;
+    font-size: 1.7em;
+    font-weight: 700;
+}
+.row .col50 img{
+    max-width:  450px;
+    max-height: 600px;
+    position: relative;
+}
